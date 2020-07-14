@@ -27,8 +27,9 @@ ul {
 }
 
 .fa-trash {
-  padding-right: 10px;
+  /* padding-right: 10px;
   padding-top: 2px;
+  float: right; */
   float: right;
   cursor: pointer;
 }
