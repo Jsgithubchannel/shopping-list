@@ -1,0 +1,52 @@
+body {
+  background-color: #c1cfe6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 300px;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #ee9ca7, #ffdde1);
+  margin: 0;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.list {
+  background-color: azure;
+  padding: 150px 0;
+}
+
+.fa-trash {
+  padding-right: 10px;
+  float: right;
+}
+
+.name {
+  padding-left: 10px;
+}
+
+.input {
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  border: none;
+  padding: 0;
+  background-color: #e8edec;
+}
+
+.fa-plus-circle {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 5px;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  cursor: pointer;
+}
