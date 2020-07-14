@@ -17,14 +17,20 @@ h1 {
   padding-bottom: 10px;
 }
 
-.list {
+.deco {
   background-color: azure;
   padding: 150px 0;
 }
 
+ul {
+  margin: 0;
+}
+
 .fa-trash {
   padding-right: 10px;
+  padding-top: 2px;
   float: right;
+  cursor: pointer;
 }
 
 .name {
