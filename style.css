@@ -22,22 +22,21 @@ h1 {
   padding: 150px 0;
 }
 
-ul {
-  margin: 0;
+/* ul {
+} */
+li {
+  position: relative;
 }
 
+/* Trash Bin */
 .fa-trash {
-  /* padding-right: 10px;
-  padding-top: 2px;
-  float: right; */
-  float: right;
   cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  left: 90%;
 }
 
-.name {
-  padding-left: 10px;
-}
-
+/* Text Input */
 .input {
   display: inline-block;
   width: 100%;
@@ -47,6 +46,7 @@ ul {
   background-color: #e8edec;
 }
 
+/* Add button */
 .fa-plus-circle {
   display: inline-block;
   width: 100%;
