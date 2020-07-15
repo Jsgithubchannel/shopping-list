@@ -19,13 +19,20 @@ h1 {
 
 .deco {
   background-color: azure;
-  padding: 150px 0;
+  height: 400px;
 }
 
-/* ul {
-} */
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
 li {
   position: relative;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  text-decoration: line-through;
 }
 
 /* Trash Bin */
@@ -34,6 +41,7 @@ li {
   display: inline-block;
   position: absolute;
   left: 90%;
+  margin-top: 5px;
 }
 
 /* Text Input */
