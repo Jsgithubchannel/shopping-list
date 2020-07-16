@@ -15,11 +15,14 @@ h1 {
   font-size: 30px;
   color: white;
   padding-bottom: 10px;
+  border-radius: 10px 10px 0 0;
 }
 
 .deco {
   background-color: azure;
   height: 400px;
+  margin: 0;
+  overflow-y: auto;
 }
 
 ul {
@@ -30,7 +33,7 @@ li {
   position: relative;
 }
 
-/* When clicked on, add a background color and strike out text */
+/* When clicked on, strike out text */
 ul li.checked {
   text-decoration: line-through;
 }
@@ -64,4 +67,5 @@ ul li.checked {
   padding-top: 5px;
   background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
   cursor: pointer;
+  border-radius: 0 0 10px 10px;
 }

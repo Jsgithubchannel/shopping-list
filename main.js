@@ -30,9 +30,12 @@ function newElement() {
   if (input.value === "") alert("You must write something");
   else list.appendChild(li);
   input.value = "";
+  input.focus();
 
   //add a trash bin icon
   let removeBtn = document.createElement("i");
   removeBtn.setAttribute("class", "fa fa-trash");
   li.appendChild(removeBtn);
+
+  li.scrollIntoView({ block: "center" });
 }
